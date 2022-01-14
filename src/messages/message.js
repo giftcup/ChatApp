@@ -1,5 +1,4 @@
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb+srv://root:s1alome@cluster0.d8t6h.mongodb.net/Salome?retryWrites=true&w=majority";
 
 // let message = document.getElementById('message_body');
 let message = "I love the LORD!";
