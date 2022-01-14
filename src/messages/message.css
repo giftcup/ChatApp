@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+i {
+    font-family: 'FontAwesome' !important;
+    padding: 1em;
+    color: #ffffff;
+}
+
+#message_block {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+    background-color: #e2eaec;
+    margin: 1em;
+    border-radius: 1em;
+    height: 80vh;
+}
+
+#messages {
+    display: flex;
+    flex-direction: column;
+}
+
+#message_sent {
+    justify-self: center;
+    background-color: #151e3d;
+    box-shadow: #808080 2px 2px 2px 2px;
+    color:white;
+    border-radius: 10px;
+    padding: 1em 2em;
+    margin: 1em;
+    width: max-content;
+}
+#message_received {
+    display: flex;
+    justify-self: end;
+    background-color: #e2eaec;
+    box-shadow: #808080 4px 4px 4px 4px;
+    border-radius: 10px;
+    color: #808080;
+    padding: 1em 2em;
+    margin: 1em;
+    width: max-content;
+}
+#write_message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 7px;
+    width: 95%;
+    font-family: inherit;
+    position: fixed;
+    bottom: 0;
+}
+
+#message_body {
+    width: 70%;
+    padding: 1em;
+    margin: 1%;
+    font-family: inherit;
+    font-size: 100%;
+    height: fit-content;   
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    box-shadow: #808080 4px 4px 4px 4px;
+}
+
+#submit {
+    /* width: 20%; */
+    background-color: #0000ff;
+    border: 1px solid #0000ff;
+    border-radius: 7px;
+    color: #ffffff;
+    padding: 1em;
+    font-family: inherit;
+    font-size: 100%;
+    height: max-content;
+    /* font-family: inherit; */
+}
